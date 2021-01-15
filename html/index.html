@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direcci&oacute;n</title>
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>FORMULARIO DIRECCI&Oacute;N</h1>
+        <div class="formulario">
+
+            <form action="../php/obtener_direccion.php" method="POST">
+
+                <div>
+                    <label for="calle">NOMBRE CALLE</label>
+                </div>
+                
+                <div>
+                    <input type="text" placeholder="Calle" name="calle" required>
+                </div>
+                
+                <div>
+                    <label for="numero">N&Uacute;MERO</label>
+                </div>
+
+                <div>
+                    <input type="text" placeholder="Número" name="numero" required>
+                </div>                
+                
+                <div>
+                    <label for="poblacion">POBLACI&Oacute;N</label>
+                </div>
+                
+                <div>
+                    <input type="text" placeholder="Población" name="poblacion" required>    
+                </div>
+                
+                <div>
+                    <label for="pais">PA&Iacute;S</label>
+                </div>
+                <div>
+                    <input type="text" placeholder="País" name="pais" required>
+                </div>
+                <div>
+                    <input type="submit" value="ENVIAR">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
